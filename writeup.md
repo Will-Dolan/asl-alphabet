@@ -1,5 +1,6 @@
 Will Dolan
 wrdolan@usc.edu
+
 Using ResNet50, I categorized images of the ASL alphabet at a >99% training accuracy rate with a loss as low as .0834 and a testing accuracy of 98%.
 
 I used a dataset of images of people performing characters in the ASL alphabet from [this kaggle link](https://www.kaggle.com/datasets/grassknoted/asl-alphabet). Because the test folder only had 28 images, I eventually added more images to the test folder. Before I did this, on my first full run of 10 epochs, the original testing images were graded with 100% accuracy. After adding in 10% of the training images to testing, the final testing accuracy came out to be 98%.
